@@ -1,7 +1,5 @@
 import sys
 from library import Library
-
-
 def print_menu():
     print("\n" + "=" * 30)
     print("   VITyarthi LIBRARY SYSTEM")
@@ -12,8 +10,6 @@ def print_menu():
     print("4. Return Book")
     print("5. Exit")
     print("-" * 30)
-
-
 def main():
     try:
         system = Library()
@@ -52,4 +48,5 @@ def main():
             print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
+
     main()
