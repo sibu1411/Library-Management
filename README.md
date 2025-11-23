@@ -2,6 +2,7 @@
    Project Overview:
    This project is a Console-Based Library Management System built using Python. It was developed as  to demonstrate mastery of Python Fundamentals, Object-Oriented Programming (OOP), and File Handling.
 The system allows librarians to manage book inventories and enables users to borrow or return books. Unlike simple scripts, this project uses a modular architecture and persistent storage (data is saved to a file), ensuring that records remain intact even after the program is closed.
+
 2.  Key features:
     Book Management: Add new books with ID, Title, and Author details.
     Inventory Tracking: View a real-time list of all books and their availability status (Available/Borrowed).
@@ -21,6 +22,7 @@ Module 8: Control Flow (Menu loops, conditional logic)
 Module 4: Input/Output Operations
 Version Control: Git & GitHub
 IDE: VS Code / PyCharm
+
 4.Project Structure
 The project follows a modular design with separation of concerns:
 Library-Management/
@@ -31,6 +33,7 @@ Library-Management/
 ├── library_data.txt  Auto-generated file where data is stored
 ├── README.md         Project documentation
 └── statement.md      Problem statement and scope definition5.Steps to Install & Run
+
 5.Clone the Repository
 git clone [https://github.com/your-username/Library-Management.git](https://github.com/your-username/Library-Management.git)
 cd Library-Management
